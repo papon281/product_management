@@ -32,16 +32,16 @@ The Product Management API is a RESTful service built with Spring Boot that allo
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ProductManagementAPI.git
+   https://github.com/papon281/product_management.git
 2. **Navigate to the Project Directory**:
    ```bash
-   git clone https://github.com/yourusername/ProductManagementAPI.git
+   cd product_management 
 3. **Build the Project**:
    ```bash
-   git clone https://github.com/yourusername/ProductManagementAPI.git
+   mvn clean install
 4. **Run the Application**:
    ```bash
-   git clone https://github.com/yourusername/ProductManagementAPI.git
+   mvn spring-boot:run
 
 The API will be available at http://localhost:8080
 

@@ -34,7 +34,7 @@ public class Product {
     @Column(name = DbProduct.PRICE, nullable = false)
     private BigDecimal price;
 
-    @Column(name = DbProduct.STOCK_QUANTITY)
+    @Column(name = DbProduct.STOCK_QUANTITY, nullable = false)
     private Integer stockQuantity;
 
     @Enumerated(value = EnumType.STRING)

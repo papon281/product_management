@@ -17,8 +17,8 @@ public class ProductValidationService {
 
     public void validateCategory(Category category) {
         if (category == null) {
-            throw new RequestValidationException("Category cannot be null. Category should be ELECTRONICS, CLOTHING " +
-                    "FOOD or BOOKS");
+            throw new RequestValidationException("Category should be ELECTRONICS, CLOTHING " +
+                    ", FOOD or BOOKS");
         }
     }
 
